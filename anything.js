@@ -63,10 +63,32 @@
 
 
 // let i = 0
-// const tur = [56,65, 98, 102, 52, 54,32]
+const tur = [56, 65, 98, 102, 52, 54, 32]
+console.log(tur)
 
 // while(i< tur.length){
 //     console.log(tur[i]*2)
 //     i++
 // }
 
+// tur.pop() removes the last element in an array
+
+// tur.shift() removes the first element of an array
+
+// tur.push('Fade') add an element at the end of an array
+// tur.unshift('Fade') adds from the beginning
+
+// const newTur = tur.slice(1,5) cuts and assign to new variable
+// console.log(newTur)
+
+
+tur.splice(3,2, 'Joy')
+
+console.log(tur)
+function greet(person = 'User'){
+    console.log('Hello world '+ person)
+}
+
+greet("Gabby")
+greet("Atau")
+greet()
