@@ -92,3 +92,26 @@ function greet(person = 'User'){
 greet("Gabby")
 greet("Atau")
 greet()
+
+for(let i = 0; i<tur.length; i++){
+    console.log(tur[i])
+}
+
+const atiboy = {
+    name: 'Atau',
+    age: 15,
+    occupation:'Yahoo boy',
+    email: 'atiboy@gomycode.com',
+    gender: 'male',
+    married: false,
+    hobbies: ['Game', 'Music', 'Simping', 'DJing']
+}
+atiboy.name = 'Savior'
+atiboy.occupation = 'Minister for Women Affairs'
+atiboy.shoe = 45
+
+delete atiboy.email
+
+let okay = confirm("Are you okay?")
+
+console.log(okay)
