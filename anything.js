@@ -63,7 +63,7 @@
 
 
 // let i = 0
-const tur = [56, 65, 98, 102, 52, 54, 32]
+const tur = [56, 65, 98, 102, 52, 54, 32,9,8,2,3,1]
 console.log(tur)
 
 // while(i< tur.length){
@@ -82,9 +82,9 @@ console.log(tur)
 // console.log(newTur)
 
 
-tur.splice(3,2, 'Joy')
+// tur.splice(3,2, 'Joy')
 
-console.log(tur)
+// console.log(tur)
 function greet(person = 'User'){
     console.log('Hello world '+ person)
 }
@@ -112,6 +112,23 @@ atiboy.shoe = 45
 
 delete atiboy.email
 
-let okay = confirm("Are you okay?")
+// let okay = confirm("Are you okay?")
 
-console.log(okay)
+// console.log(okay)
+const ppl = ['Joy', 'Atau', 'Johnson', 'Jonathan','Michael', 'Blessing', 'Dora', 'Jasemin']
+
+function sorted(arr){
+    let arrange = arr.sort()
+    return arrange
+}
+const sorPPl=sorted(ppl)
+
+function something(arr){
+    for(i of arr){
+        console.log(i+' is a student')
+    }
+}
+something(ppl)
+
+const str = 'weather'
+console.log(str.split(''))
